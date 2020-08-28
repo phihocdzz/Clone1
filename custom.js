@@ -1,0 +1,61 @@
+$(document).ready(function(){
+    $('.daylaslide').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
+});
+
+$(document).ready(function(){
+    $('.daylaslide1').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:6
+            }
+        }
+    })
+});
+$(document).ready(function(){
+    $('.daylaslide2').owlCarousel({
+        loop:false,
+        margin:10,
+        nav:false,
+        dots:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:4
+            }
+        }
+    })
+});
+
+
